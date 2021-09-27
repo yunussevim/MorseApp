@@ -1,0 +1,37 @@
+<stack class="stack" onswipe="touchMove">
+    <div class="container">
+        <div class="row">
+            <text class="word">
+                {{ word }}
+            </text>
+            <div class="random play_button" onclick="getRandomWord">
+                <image class="icon-32" src="/common/icons/random.png"></image>
+            </div>
+        </div>
+        <input type="button" if="{{play}}"  class="morse_button" onclick="addDot" onlongpress="addDash" >
+        </input>
+        <div if="{{space}}" class="morse_button" onclick="cancelAnimation">
+            <image class="icon-32 space_icon" src="/common/icons/space.png"></image>
+        </div>
+        <div if="{{dot}}"   class="morse_button anim_dot" onclick="cancelAnimation" >
+            <image class="icon-16" src="/common/icons/dot.png"></image>
+        </div>
+        <div if="{{dash}}" class="morse_button anim_dash" onclick="cancelAnimation" >
+            <image class="icon-32" src="/common/icons/dash.png"></image>
+        </div>
+        <text class="word input">
+            {{ morse }}
+        </text>
+        <div class="row">
+            <div  class="play_button" onclick="showResult">
+                <image class="icon-32" src="/common/icons/play.png"></image>
+            </div>
+            <div  class="play_button" onclick="addSpace">
+                <image class="icon-32 space_icon" src="/common/icons/space.png"></image>
+            </div>
+            <div  class="play_button" onclick="calculateScore">
+                <image class="icon-32" src="/common/icons/done.png"></image>
+            </div>
+        </div>
+    </div>
+</stack>

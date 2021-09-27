@@ -1,0 +1,41 @@
+@import '../../common/style.css';
+.list-wrapper {
+    width: 454px;
+    height: 300px;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.list-item {
+    width: 454px;
+    height: 60px;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.list-title {
+    width: 100px;
+    height: 40px;
+    text-align: left;
+}
+.list-upper-title {
+    border-color: darkslategrey;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: dimgrey;
+}
+.list {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+}

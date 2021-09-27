@@ -1,0 +1,15 @@
+<div class="container" onswipe="touchMove">
+    <div class="list">
+        <text class="list-upper-title">
+            Morse Codes
+        </text>
+        <list class="list-wrapper">
+            <list-item for="{{dict}}" class="list-item">
+                <div class="row">
+                    <text class="list-title">{{$item.key}}</text>
+                    <text class="list-title">{{$item.val}}</text>
+                </div>
+            </list-item>
+        </list>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+{
+  "app": {
+    "bundleName": "com.harmonyos.morse",
+    "vendor": "harmonyos",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/play/play",
+          "pages/score/score",
+          "pages/morse_list/morse_list",
+          "pages/main/main"
+        ],
+        "name": "default"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+.stack {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+}
+.background {
+    width:454px;
+    height:454px;
+}
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+    background-color: transparent;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 454px;
+    height: 74px;
+    margin: 10px;
+    background-color: transparent;
+}
+.btn-small{
+    display: flex;
+    width: 64px;
+    height: 64px;
+}
+.containerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+    background-color: transparent;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    width: 350px;
+    height: 60px;
+}

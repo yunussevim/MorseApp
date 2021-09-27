@@ -1,0 +1,3 @@
+<div class="container" onswipe="touchMove">
+        <text> {{title}}</text>
+</div>

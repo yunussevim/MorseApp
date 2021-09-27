@@ -1,0 +1,16 @@
+<stack class="stack">
+    <div class="container" onswipe="touchMove">
+        <progress class="progress" type="arc" percent="{{score}}"/>
+        <text class="score-text">
+            Score: {{ score }}%
+        </text>
+        <text class="score-text">
+            {{ realWord }}
+        </text>
+        <text class="score-text">
+            {{ userInput }}
+        </text>
+        <input type="button" class="back-btn" value="Back" onclick="back"/>
+    </div>
+
+</stack>

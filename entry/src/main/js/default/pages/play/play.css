@@ -1,0 +1,72 @@
+@import '../../common/style.css';
+.morse_button{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    background-color: darkslategrey;
+    align-items: center;
+    justify-content: center;
+}
+.play_button{
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    background-color: darkslategrey;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+.icon-16{
+    width: 16px;
+    height: 16px;
+}
+.icon-32{
+    width: 32px;
+    height: 32px;
+}
+.space_icon{
+    margin-top: 20px;
+}
+.word{
+    font-size: 30px;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+}
+.input{
+    width: 454px;
+}
+.anim_dot {
+    animation-name: dot;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    background-color: green;
+    animation-iteration-count: 1;
+}
+.anim_dash {
+    animation-name: dash;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    background-color: red;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+}
+@keyframes dot {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: green;
+    }
+}
+@keyframes dash {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: red;
+    }
+}
